@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vendas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Vendas de Veículos</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#veiculos_disponiveis">Veículos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tabela">Tabela de valores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" role="button" data-bs-toggle="" aria-expanded="false">
+            Contato
+          </a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="container-fluid p-4 bg-warning text-center">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/img/carros/140-1406771_carros-png.png" class="d-block w-100" alt="Imagem de carro">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/carros/PikPng.com_carros-png_2200174.png" class="d-block w-100" alt="Imagem de carro">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Próximo</span>
+  </button>
+</div>
+    </div>
+    </header>
+
+    
+
+
+    <section class="container-fluid bg-light text-center p-4"> 
+    <p class="p1">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat magna,
+      accumsan eget cursus et, ultricies a nunc. Fusce bibendum purus eget sem
+      tempor auctor. Nunc scelerisque quam nec sem auctor, aliquet commodo justo
+      consequat. Vivamus hendrerit ante sed nulla posuere, eu dapibus eros
+      sollicitudin. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Aliquam at pellentesque felis. Sed interdum ut lacus ut
+      vestibulum. Quisque non vehicula erat.
+    </p>
+    <br />
+    <p>
+      Aenean nec velit mollis tortor varius mollis et sit amet urna. Praesent
+      rhoncus, ante sit amet convallis mollis, erat urna mattis libero, congue
+      tempor enim massa eu quam. Quisque non dolor in erat sollicitudin mattis
+      vel sed purus. Donec ut neque et tellus feugiat porta. Ut pulvinar purus
+      sed aliquet ullamcorper. Vestibulum maximus eros vitae mi aliquam
+      ullamcorper. Vestibulum laoreet nec urna ac lacinia. Aliquam erat
+      volutpat. Nam semper odio at metus facilisis, nec commodo urna porttitor.
+      Quisque pulvinar velit nec est malesuada, in semper diam molestie. In
+      molestie, nunc et aliquam porta, ligula lectus tristique urna, a sodales
+      eros leo in nisi. Donec ac interdum sapien, non vulputate tortor. Ut augue
+      lorem, pretium sit amet erat quis, vulputate porta enim. Suspendisse
+      molestie ornare mi sed laoreet. Curabitur cursus nisi eget mauris gravida
+      interdum.
+    </p>
+    <a href="https://www.w3.org/">Link</a>
+    </section>
+
+
+    <section class="container-fluid bg-light p-4">
+      <h2>Gostou? Compra então!</h2>
+      <figure class="row row-cols-1 row-cols-md-3 g-4">
+        <img
+        width="500px"
+        height="320px"
+        src="/img/capa-como-fazer-anuncio.png"
+        alt="Um megafone saindo da tela do celular com um carro verde a direita na inteçao de fazer um anúncio do carro"
+        />
+      </figure>
+    
+
+      <section>
+      <p>
+        Lorem ipsum dolor sit amet.
+      </p>
+      </section>
+      <br /><br />
+
+      
+     <section id="veiculos_disponiveis">      
+      <div class="row row-cols-1 row-cols-md-3 g-4 px-2">
+    <div class="col">
+      <div class="card h-100 bg-warning">
+        <img src="/img/Fiat toro.jpg" class="card-img-top" alt="Fiat toro">
+        <div class="card-body">
+          <h5 class="card-title">Fiat Toro</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus voluptas architecto corporis maiores esse doloremque quae, magni voluptatum totam. </p>
+        </div>
+        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-warning">
+        <img src="img/Kwid.jpg" class="card-img-top" alt="Kwid">
+        <div class="card-body">
+          <h5 class="card-title">Renaut Kwid</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus voluptas architecto corporis maiores esse doloremque quae, magni voluptatum totam.</p>
+        </div>
+        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-warning">
+        <img src="img/Up  TSI.jpg" class="card-img-top" alt="Up TSI">
+        <div class="card-body">
+          <h5 class="card-title">Up TSI</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus voluptas architecto corporis maiores esse doloremque quae, magni voluptatum totam.</p>
+        </div>
+        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+    </div>
+  </div>
+     </section>
+    </section>
+
+
+    <section id="tabela" class="container-fluid bg-warning text-center p-4">
+      <p class="p2">Veículos e Valores</p>
+      <p class="p3">Veja nossos valores</p>
+      <table class="table table-warning table-striped table-hover table-bordered border-black">
+        <caption>
+          Descrição de Veículos e Valores
+        </caption>
+        <thead class="table-secondary border-black">
+          <tr>
+            <th>Fabricante</th>
+            <th>Veículos</th>
+            <th>Valores</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <td>Fiat</td>
+            <td>Toro 2020</td>
+            <td>R$ 119.900</td>
+          </tr>
+          <tr>
+            <td>Renault</td>
+            <td>Kwid</td>
+            <td>R$ 65.790</td>
+          </tr>
+          <tr>
+            <td>Volkswagen</td>
+            <td>UP TSI</td>
+            <td>R$ 59.990</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    
+    <section id="contact" class="container-fluid bg-light p-4" >
+      <h1 class="text-center">Contato</h1>
+      <form action="" method="post">
+        <fieldset>
+          <div class="mb-3">
+          <label class="form-label" for="nome">Nome</label>
+          <input type="text" class="form-control" id="nome" name="nome">
+          </div>
+
+          <div class="mb-3">
+          <label class="form-label" for="sobrenome">Sobrenome </label>
+          <input type="text" class="form-control" name="sobrenome" id="sobrenome">
+          </div>
+
+          <div class="mb-3">
+          <label" class="form-label" for="email">Email</label>
+          <input type="email" class="form-control" required name="email" id="email">
+          </div>
+
+          <div class="mb-3">
+          <label class="form-label" for="dataNascimento">Data de nascimento</label>
+          <input type="date" required class="form-control" name="dataNascimento" id="dataNascimento">
+          </div>
+          	
+          
+      <button class="btn btn-secondary">Salvar</button>
+      </fieldset>
+      </form>
+    </section>
+
+    <footer class="container-fluid bg-warning">© 05/08/2024 PRÁTICA 02</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Continuar compra</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Produto adicionado ao carrinho!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando </button>
+        <button type="button" class="btn btn-success">Finalizar a compra</button>
+      </div>
+    </div>
+  </div>
+</div>
+</html>
